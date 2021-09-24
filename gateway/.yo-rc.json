@@ -1,0 +1,63 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "jwt",
+    "clientFramework": "react",
+    "serverPort": "8080",
+    "serviceDiscoveryType": "eureka",
+    "skipUserManagement": false,
+    "withAdminUi": true,
+    "baseName": "gateway",
+    "buildTool": "maven",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": ["en"],
+    "messageBroker": false,
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "skipClient": false,
+    "testFrameworks": ["cypress"],
+    "websocket": false,
+    "enableGradleEnterprise": false,
+    "gradleEnterpriseHost": "",
+    "packageName": "com.genvita.gateway",
+    "packageFolder": "com/genvita/gateway",
+    "applicationType": "gateway",
+    "jhipsterVersion": "7.2.0",
+    "skipServer": false,
+    "clientPackageManager": "npm",
+    "dtoSuffix": "DTO",
+    "entitySuffix": "",
+    "reactive": true,
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "applicationIndex": 0,
+    "applications": {
+      "blog": {
+        "serverPort": "8081",
+        "applicationIndex": 1
+      },
+      "store": {
+        "serverPort": "8082",
+        "applicationIndex": 2
+      }
+    },
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "blueprints": [],
+    "otherModules": [],
+    "pages": [],
+    "nativeLanguage": "en",
+    "creationTimestamp": 1632493793170,
+    "monorepository": true,
+    "skipCommitHook": true,
+    "jwtSecretKey": "ZTA2OWFjMzNiZTEzNmU5NGViNzIwZWZmZjhkYjc4NDFkNjY3ZDJiYTJkMDM0NDhhNjZjYTFkNTcxNjBmYjY0ZjgxMGRiM2E5ZjMxMDlkMWE0NTI4YmI3NDhkZGNmOTA0ZTk4MzNjOWUxZWY2MWM2MGQyNDJkODM5ZWIzNGI5MjE=",
+    "devServerPort": 9060,
+    "entities": ["Tag", "Product", "Blog", "Post"],
+    "lastLiquibaseTimestamp": 1632494033000
+  }
+}
