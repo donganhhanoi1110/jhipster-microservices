@@ -1,0 +1,13 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["gateway", "blog", "store"],
+    "directoryPath": "../",
+    "gatewayType": "SpringCloudGateway",
+    "clusteredDbApps": [],
+    "monitoring": "prometheus",
+    "serviceDiscoveryType": "eureka",
+    "deploymentType": "docker-compose",
+    "dockerRepositoryName": "genvitatest",
+    "jwtSecretKey": "OTNlZTY3MWI3ZjM2YWQ0ZjQ0ZjU3ZDQzMmFkN2Q4YThkNTQxMzEzMjA5MTQwNTRlZDExMDdiZmYxZTY0ZTZiY2EwYjYwYTc1YmMyM2JlYWNkYTYzZWVmOTI1NDJmYmNhZWEwMw=="
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["gateway", "blog", "store"],
+    "directoryPath": "../",
+    "clusteredDbApps": [],
+    "serviceDiscoveryType": "eureka",
+    "dockerRepositoryName": "genvitatest",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "LoadBalancer",
+    "kubernetesUseDynamicStorage": false,
+    "kubernetesStorageClassName": "",
+    "ingressDomain": "",
+    "monitoring": "prometheus",
+    "istio": false,
+    "deploymentType": "kubernetes",
+    "jwtSecretKey": "NWQzMTZmOGZkYjE1M2VmZWNkODlhOWExOGEzYTA1YWRmZDA3YjYzNDYyNzE4YzUyODFmNjNjYTQ1ZDNiZDg4ODZkZWFjYTAxNmE2YTE2YzU3MzkwNTdmM2FhMjgxMDE5NmVlZA=="
+  }
+}
