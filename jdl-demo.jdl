@@ -7,8 +7,11 @@ application {
     buildTool maven 
     clientFramework react 
     prodDatabaseType postgresql
+    enableHibernateCache true
     serviceDiscoveryType eureka
     testFrameworks [cypress,cucumber]
+    jhiPrefix gateway
+    cacheProvider hazelcast
   }
   entities Blog, Post, Tag, Product
 }
@@ -29,6 +32,7 @@ application {
     clientFramework react
     testFrameworks [cucumber]
     jhiPrefix blog
+    cacheProvider hazelcast
   }
   entities Blog, Post, Tag
 }
@@ -49,10 +53,12 @@ application {
     clientFramework react
     testFrameworks [cucumber]
     jhiPrefix store
+    cacheProvider hazelcast
   }
   entities Product
 
 }
+
 
 entity Blog {
   name String required minlength(3)
